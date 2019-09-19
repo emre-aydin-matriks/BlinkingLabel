@@ -171,7 +171,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				50C3FBC7F56AA44EBDC72478 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,24 +261,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		50C3FBC7F56AA44EBDC72478 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlinkingLabel_Example/Pods-BlinkingLabel_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BlinkingLabel/BlinkingLabel.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlinkingLabel.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlinkingLabel_Example/Pods-BlinkingLabel_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CE9B460215D1CE58ACFB0810 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
